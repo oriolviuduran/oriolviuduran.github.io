@@ -63,7 +63,7 @@ nav .menu{
 
 .contentpage{
   position: absolute;
-  top: 20%;
+  top: 15%;
   width: 100%;
   padding: 0 5vw;
   text-align: left;
@@ -107,32 +107,37 @@ nav .menu{
   font-size: 5vw;
   font-weight: 600;
 }
-.center .btns{
-  margin-top: 20px;
+
+/*#SLIDE_BG {
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	animation: slideBg 15s linear infinite 0s;
+	animation-timing-function: ease-in-out;
+	background-image: url('../img/WAVA/Moon_2.png');
 }
-.center .btns button{
-  height: 55px;
-  width: 170px;
-  border-radius: 5px;
-  border: none;
-  margin: 0 10px;
-  border: 2px solid white;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 0 10px;
-  cursor: pointer;
-  outline: none;
-  transition: all 0.3s ease;
-}
-.center .btns button:first-child{
-  color: #fff;
-  background: none;
-}
-.btns button:first-child:hover{
-  background: white;
-  color: black;
-}
-.center .btns button:last-child{
-  background: white;
-  color: black;
-}
+
+@keyframes slideBg {
+	0% {
+		background-image: url('../img/WAVA/Moon_2.png');
+	}
+	
+	25% {
+		background-image: url('../img/WAVA/Gloom_Walk.png');
+	}
+	
+	50% {
+		background-image: url('../img/WAVA/Rain_Uphill.png');
+	}
+	
+	75% {
+		background-image: url('../img/WAVA/Rain_Sunken.png');
+	}
+	
+	100% {
+		background-image: url('../img/WAVA/Breeze_Run.png');
+	}
+}*/

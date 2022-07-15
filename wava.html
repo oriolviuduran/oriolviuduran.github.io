@@ -25,18 +25,74 @@
 	</div>
 	
 	<div class="contentpage">
-		<div class="title">Projects</div>
+		<center><img src="./assets/img/wava/wavalogo.png" width="50%"></img></center>
 		<div class="text">
-		Even though North Oriole Games is my main venture, I have done (and I'm currently doing) many other fun things!
+		WAVA is a short cinematic 2D puzzle-platformer about finding your place. It is my first solo project and, soon enough, you will find it on 
+		<a style = "color: #ffd63e" href="https://northoriole.itch.io/wava">itch.io</a>.
 		</div>
 		<br>
-		<div class="subtitle">More games</div>
-		<div class="subtitle">Photography</div>
-		<br> <br>
+		<div class="subtitle">Screenshots</div>
+		<div class="row">
+			<div class="column">
+				<img src="./assets/img/wava/wava1.png" alt="Nature" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="./assets/img/wava/wava2.png" alt="Snow" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="./assets/img/wava/wava3.png" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="./assets/img/wava/wava4.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="column">
+				<img src="./assets/img/wava/wava5.png" alt="Nature" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="./assets/img/wava/wava6.png" alt="Snow" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="./assets/img/wava/wava7.png" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="./assets/img/wava/wava8.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+			</div>
+		</div>
+
+		<div class="container">
+			<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+			<img id="expandedImg" style="width:100%">
+		</div>
+		
+		<br>
+		<div class="subtitle">GIFs</div>
+		<center><img src="./assets/img/wava/wavagif1.gif" width="60%"></img></center>
+		<center><img src="./assets/img/wava/wavagif2.gif" width="60%"></img></center>
+		<center><img src="./assets/img/wava/wavagif3.gif" width="60%"></img></center>
+		<br>
+		<div class="subtitle">Accolades & Notable Information</div>
+		<div class="text">
+		- My End of Degree Project, which consisted in creating a prototype for WAVA, was awarded full marks.
+		<br>		
+		- On June 22nd 2022, I had the chance to represent the University of Girona (UdG) by showcasing this project at the 
+		<a style = "color: #ffd63e" href="https://twitter.com/devicat_/status/1539877774281818113"> Talent Open Mic</a> 
+		organized by DeviCAT, the Association of Video Game Professionals of Catalonia.
+		</div>
 	</div>
 	
 	<div class="footer">
 		<p>© 2022 Oriol Viu Duran. All rights reserved.</p>
 	</div>
+	
+	<script>
+	function myFunction(imgs) {
+	  var expandImg = document.getElementById("expandedImg");
+	  expandImg.src = imgs.src;
+	  expandImg.parentElement.style.display = "block";
+	}
+	</script>
 </body>
 </html>

@@ -98,9 +98,10 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
-  opacity: 0.75;
+  opacity: 1;
   position: relative;
 }
+
 .img::before{
   content: '';
   position: absolute;
@@ -172,6 +173,11 @@
   color: white;
   font-size: 35px;
   cursor: pointer;
+  z-index: 1;
+}
+
+.contentpage .closebtn:hover {
+  opacity: 0.5;
 }
 
 .center{

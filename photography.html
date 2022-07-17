@@ -25,18 +25,72 @@
 	</div>
 	
 	<div class="contentpage">
-		<div class="title">Projects</div>
+		<div class="title">Photography</div>
 		<div class="text">
-		Even though North Oriole Games is my main venture, I have done (and I'm currently doing) many other fun things!
+		Even though game development is my main venture, I enjoy working on other non-related projects. 
 		</div>
 		<br>
-		<div class="subtitle">More games</div>
-		<div class="subtitle">Photography</div>
-		<br> <br>
+		<div class="subtitle">From Girona With Love.</div>
+		<div class="text">
+		Everytime I go for a walk around my hometown, I can't help but take pictures on my phone. I started posting them on 
+		<a style = "color: #ffd63e" href="https://www.instagram.com/fromgironawithlove/" target="_blank">Instagram</a> 
+		under the name From Girona With Love.
+		<br><br>
+		I always try to capture the loneliness of an empty city, thus making Girona the main character. These are some of my favourite pictures I've taken:
+		</div>
+		<center><img src="./assets/img/fromgironawithlove/banner_fromgironawithlove.png" width="100%"></img></center>
+		<br>
+		<div class="row">
+			<div class="column">
+				<img src="./assets/img/fromgironawithlove/fgwlv1.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="./assets/img/fromgironawithlove/fgwlv2.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="./assets/img/fromgironawithlove/fgwlv3.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="./assets/img/fromgironawithlove/fgwlv4.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="column">
+				<img src="./assets/img/fromgironawithlove/fgwlv5.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="./assets/img/fromgironawithlove/fgwlv6.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="./assets/img/fromgironawithlove/fgwlv7.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="./assets/img/fromgironawithlove/fgwlv8.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+			</div>
+		</div>
+
+		<div class="container">
+			<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+			<img id="expandedImg" style="width:100%">
+		</div>
+		
+		<center><img src="./assets/img/fromgironawithlove/fgwlh1.jpg" width="100%"></img></center>
+		<center><img src="./assets/img/fromgironawithlove/fgwlh2.jpg" width="100%"></img></center>
+		<center><img src="./assets/img/fromgironawithlove/fgwlh3.jpg" width="100%"></img></center>
+		<center><img src="./assets/img/fromgironawithlove/fgwlh4.jpg" width="100%"></img></center>
 	</div>
 	
 	<div class="footer">
 		<p>© 2022 Oriol Viu Duran. All rights reserved.</p>
 	</div>
+	
+	<script>
+	function myFunction(imgs) {
+	  var expandImg = document.getElementById("expandedImg");
+	  expandImg.src = imgs.src;
+	  expandImg.parentElement.style.display = "block";
+	}
+	</script>
 </body>
 </html>

@@ -372,14 +372,13 @@
 .footer {
    position: fixed;
    color: white;
-   text-align: left;
+   text-align: center;
    display: flex;
    color: #ffffff;
    background-color: #000000;
-   font-size: 0.5vw;
-   text-align: justify;
+   font-size: 0.75vw;
    font-weight: 500;
-   left: 1%;
+   justify-content: center;
    bottom: 0;
    overflow: visible;
    width: 100%;

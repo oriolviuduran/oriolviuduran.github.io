@@ -281,7 +281,9 @@ a.linktype:hover {
 /* Clear floats after the columns */
 .contentpage .row:after {
   content: "";
-  display: table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   clear: both;
 }
 

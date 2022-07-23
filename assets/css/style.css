@@ -251,6 +251,12 @@
     font-size: 3vw;
   }
  }
+ 
+ .contentpage .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* The grid: Four equal columns that floats next to each other */
 .contentpage .column {
@@ -317,6 +323,7 @@
   padding: 0 1vw;
   text-align: center;
 }
+
 .center .title{
   color: #ffd63e;
   font-size: 5vw;
@@ -396,5 +403,9 @@
   .footer {
     font-size: 2vw;
   }
+}
+
+a.linktype:hover {
+    opacity: 0.5;
 }
 

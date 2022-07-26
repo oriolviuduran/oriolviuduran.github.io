@@ -47,7 +47,7 @@
 
 @media only screen and (max-width: 800px) {
   .topnav a {
-    font-size: 3vw;
+    font-size: 4vw;
 	padding: 1.5vw 3vw;
   }
  }
@@ -171,7 +171,7 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
-a.linktype:hover {
+a:hover {
     opacity: 0.5;
 }
 
@@ -272,10 +272,6 @@ a.linktype:hover {
 /* Style the images inside the grid */
 .contentpage .column img {
   cursor: pointer; 
-}
-
-.contentpage .column img:hover {
-  opacity: 0.5;
 }
 
 /* Clear floats after the columns */

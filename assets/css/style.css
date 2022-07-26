@@ -171,10 +171,6 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
-a:hover {
-    opacity: 0.5;
-}
-
 .contentpage{
   position: absolute;
   top: 5vw;
@@ -255,6 +251,10 @@ a:hover {
     font-size: 3vw;
   }
  }
+ 
+.contentpage a:hover {
+    opacity: 0.5;
+}
  
  .contentpage .row {
   display: flex;

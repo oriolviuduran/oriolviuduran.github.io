@@ -316,6 +316,11 @@
   opacity: 0.5;
 }
 
+.contentpage ul{
+  list-style-type: square;
+  color: #ffffff;
+}
+
 .center{
   position: absolute;
   top: 50%;

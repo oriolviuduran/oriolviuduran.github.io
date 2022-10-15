@@ -51,6 +51,10 @@
 	padding: 1.5vw 3vw;
   }
  }
+ 
+ .topnav a:hover {
+    opacity: 0.5;
+}
 
 .img{
   width: 100%;

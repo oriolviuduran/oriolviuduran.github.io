@@ -280,37 +280,37 @@
 
 .center .title{
   color: #ffd63e;
-  font-size: 5vw;
+  font-size: 6vw;
   font-weight: 600;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
   .center .title {
-    font-size: 5vw;
+    font-size: 6vw;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .center .title {
-    font-size: 16vw;
+    font-size: 15vw;
   }
 }
  
 .center .sub_title{
   color: #ffffff;
-  font-size: 5vw;
+  font-size: 2vw;
   font-weight: 600;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
   .center .sub_title {
-    font-size: 5vw;
+    font-size: 2vw;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .center .sub_title {
-    font-size: 16vw;
+    font-size: 5vw;
   }
 }
 
@@ -326,7 +326,7 @@
 
 @media only screen and (max-width: 800px) {
   .center img {
-    width: 50%;
+    width: 60%;
   }
 }
 

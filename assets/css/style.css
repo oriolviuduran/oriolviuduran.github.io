@@ -229,7 +229,7 @@
 
 .contentpage table{
   left: 22.5%;
-  width: 55%;
+  width: 60%;
   margin: auto;
   justify-content:center;
   text-align: center;
@@ -238,14 +238,14 @@
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
   .contentpage table{
-    width: 55%;
+    width: 60%;
 	left: 22.5%;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .contentpage table{
-    width: 80%;
+    width: 100%;
     left: 10%;
   }
  }

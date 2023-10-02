@@ -169,11 +169,16 @@
   float: left;
   width: 25%;
   padding: 0.5vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 /* Style the images inside the grid */
 .contentpage .column img {
-  cursor: pointer; 
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Clear floats after the columns */

@@ -272,32 +272,47 @@
     height: 100%;
 }
 
-
 .center{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 1vw;
+  top: 5vw;
+  left: 22.5%;
+  width: 55%;
+  margin: auto;
+  justify-content:center;
   text-align: center;
 }
 
+@media only screen and (min-width: 800) and (max-width: 1200) {
+  .center {
+    width: 55%;
+	left: 22.5%;
+	top: 5vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .center {
+    width: 80%;
+    left: 10%;
+	top: 10vw;
+  }
+ }
+
 .center .title{
   color: #ffd63e;
-  font-size: 6vw;
+  font-size: 5vw;
   font-weight: 600;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
   .center .title {
-    font-size: 6vw;
+    font-size: 5vw;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .center .title {
-    font-size: 15vw;
+    font-size: 12vw;
   }
 }
  
@@ -315,25 +330,61 @@
 
 @media only screen and (max-width: 800px) {
   .center .sub_title {
-    font-size: 5vw;
+    font-size: 4.8vw;
   }
 }
 
 .center img{
 	position: relative;
-	width: 20%;
+	width: 30%;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
   .center img {
-    width: 20%;
+    width: 30%;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .center img {
-    width: 60%;
+    width: 50%;
   }
+}
+
+.center a:hover {
+    opacity: 0.5;
+}
+ 
+ .center .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.center .column {
+  float: left;
+  width: 25%;
+  padding: 0.5vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Style the images inside the grid */
+.center .column img {
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Clear floats after the columns */
+.center .row:after {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clear: both;
 }
 
 .footer {

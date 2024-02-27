@@ -312,7 +312,7 @@
 
 @media only screen and (max-width: 800px) {
   .center .title {
-    font-size: 12vw;
+    font-size: 10vw;
   }
 }
  
@@ -330,7 +330,7 @@
 
 @media only screen and (max-width: 800px) {
   .center .sub_title {
-    font-size: 4.8vw;
+    font-size: 4vw;
   }
 }
 
@@ -347,7 +347,7 @@
 
 @media only screen and (max-width: 800px) {
   .center img {
-    width: 50%;
+    width: 40%;
   }
 }
 

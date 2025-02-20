@@ -1,2 +1,0 @@
-# oriolviuduran.github.io
-Portfolio.

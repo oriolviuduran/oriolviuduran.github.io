@@ -34,7 +34,7 @@
   outline: none;
   margin: 0;
   font-size: 1.6vw;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
@@ -101,7 +101,7 @@
 .contentpage .title{
   color: #ffd63e;
   font-size: 3vw;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
@@ -120,7 +120,7 @@
 .contentpage .subtitle{
   color: #ffd63e;
   font-size: 1.5vw;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
@@ -139,7 +139,6 @@
   color: #ffffff;
   font-size: 1vw;
   text-align: justify;
-  font-weight: 500;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
@@ -154,6 +153,11 @@
   }
  }
  
+ .contentpage a {
+    font-weight: bold;
+	text-decoration: none;
+}
+
 .contentpage a:hover {
     opacity: 0.5;
 }
@@ -230,6 +234,7 @@
 
 .contentpage tr,th{
   padding: 0 1vw;
+  font-weight: normal;
 }
 
 .contentpage table{
@@ -239,6 +244,7 @@
   justify-content:center;
   text-align: center;
   color: #ffffff;
+  font-weight: normal;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
@@ -294,14 +300,14 @@
   .center {
     width: 80%;
     left: 10%;
-	top: 10vw;
+	top: 15vw;
   }
  }
 
 .center .title{
   color: #ffd63e;
   font-size: 5vw;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
@@ -316,32 +322,76 @@
   }
 }
  
-.center .sub_title{
+.center .subtitle{
   color: #ffffff;
   font-size: 2vw;
-  font-weight: 600;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
-  .center .sub_title {
+  .center .subtitle {
     font-size: 2vw;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .center .sub_title {
+  .center .subtitle {
     font-size: 4vw;
   }
 }
 
+.center .subsubtitle{
+  color: #ffd63e;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 800) and (max-width: 1200) {
+  .center .subsubtitle {
+    font-size: 1.5vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .center .subsubtitle {
+    font-size: 4vw;
+  }
+ }
+
+.center .text{
+  color: #ffffff;
+  font-size: 1vw;
+  text-align: center;
+}
+
+@media only screen and (min-width: 800) and (max-width: 1200) {
+  .center .text {
+    font-size: 1vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .center .text {
+    font-size: 3vw;
+  }
+ }
+ 
+ .center a {
+    font-weight: bold;
+	text-decoration: none;
+}
+
+.center a:hover {
+    opacity: 0.5;
+}
+
 .center img{
 	position: relative;
-	width: 30%;
+	width: 20%;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
   .center img {
-    width: 30%;
+    width: 20%;
   }
 }
 
@@ -387,6 +437,36 @@
   clear: both;
 }
 
+.center tr,th{
+  padding: 0 1vw;
+  font-weight: normal;
+  justify-content: start;
+}
+
+.center table{
+  left: 22.5%;
+  width: 100%;
+  margin: auto;
+  justify-content: start;
+  text-align: center;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 800) and (max-width: 1200) {
+  .center table{
+	left: 22.5%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .center table{
+	left: 10%;
+    width: 100%;
+  }
+ }
+
 .footer {
    position: fixed;
    color: white;
@@ -395,7 +475,7 @@
    color: #ffffff;
    background-color: #000000;
    font-size: 0.75vw;
-   font-weight: 500;
+   font-weight: bold;
    justify-content: center;
    bottom: 0;
    overflow: visible;

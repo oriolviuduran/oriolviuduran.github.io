@@ -10,6 +10,8 @@
   background: #fff;
 }
 
+/*TOP NAV*/
+
 .topnav {
   overflow: visible;
   background-color: #000000;
@@ -28,18 +30,18 @@
   float: center;
   color: #ffd63e;
   text-align: center;
-  padding: 0.75vw 2.5vw;
+  padding: 0.75vw 1vw;
   text-decoration: none;
   border: none;
   outline: none;
   margin: 0;
-  font-size: 1.6vw;
+  font-size: 1.5vw;
   font-weight: bold;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
   .topnav a {
-    font-size: 1.6vw;
+    font-size: 1vw;
 	padding: 0.75vw 2.5vw;
   }
 }
@@ -47,7 +49,7 @@
 @media only screen and (max-width: 800px) {
   .topnav a {
     font-size: 4vw;
-	padding: 1.5vw 3vw;
+	padding: 2vw 2vw;
   }
  }
  
@@ -55,23 +57,7 @@
     opacity: 0.5;
 }
 
-.img{
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; 
-  opacity: 1;
-  position: relative;
-}
-
-.img::before{
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.4);
-}
+/*PROJECTS*/
 
 .contentpage{
   position: absolute;
@@ -98,40 +84,43 @@
   }
  }
 
-.contentpage .title{
+.contentpage h1{
   color: #ffd63e;
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: bold;
+  text-align: center;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
-  .contentpage .title {
-    font-size: 3vw;
+  .contentpage h1 {
+    font-size: 2vw;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .contentpage .title {
-    font-size: 8vw;
+  .contentpage h1 {
+    font-size: 5vw;
   }
  }
 
 
-.contentpage .subtitle{
+.contentpage h2{
   color: #ffd63e;
-  font-size: 1.5vw;
+  text-align: center;
+  padding-top: 2vw;
+  font-size: 1vw;
   font-weight: bold;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
-  .contentpage .subtitle {
-    font-size: 1.5vw;
+  .contentpage h2 {
+    font-size: 1vw;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .contentpage .subtitle {
-    font-size: 4vw;
+  .contentpage h2 {
+    font-size: 3vw;
   }
  }
 
@@ -156,6 +145,7 @@
  .contentpage a {
     font-weight: bold;
 	text-decoration: none;
+	color: #ffd63e;
 }
 
 .contentpage a:hover {
@@ -168,7 +158,6 @@
   justify-content: center;
 }
 
-/* The grid: Four equal columns that floats next to each other */
 .contentpage .column {
   float: left;
   width: 25%;
@@ -178,14 +167,12 @@
   text-align: center;
 }
 
-/* Style the images inside the grid */
 .contentpage .column img {
   cursor: pointer;
   align-items: center;
   justify-content: center;
 }
 
-/* Clear floats after the columns */
 .contentpage .row:after {
   content: "";
   display: flex;
@@ -194,72 +181,29 @@
   clear: both;
 }
 
-/* The expanding image container */
-.contentpage .container {
-  position: relative;
-  display: none;
-}
-
-/* Closable button inside the expanded image */
-.contentpage .closebtn {
-  position: absolute;
-  top: 0vw;
-  right: 1vw;
-  color: white;
-  font-size: 4vw;
-  cursor: pointer;
-  z-index: 1;
-}
-
-@media only screen and (min-width: 800) and (max-width: 1200) {
-  .contentpage .closebtn {
-    font-size: 4vw;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .contentpage .closebtn {
-    font-size: 8vw;
-  }
- }
-
-.contentpage .closebtn:hover {
-  opacity: 0.5;
-}
-
 .contentpage ul{
   list-style-type: square;
   color: #ffffff;
 }
 
-.contentpage tr,th{
-  padding: 0 1vw;
+.contentpage tr{
   font-weight: normal;
 }
 
+.contentpage th{
+  font-weight: normal;
+  width: 20%;
+  vertical-align: top;
+}
+
 .contentpage table{
-  left: 22.5%;
-  width: 60%;
+  width: 100%;
   margin: auto;
   justify-content:center;
   text-align: center;
   color: #ffffff;
   font-weight: normal;
 }
-
-@media only screen and (min-width: 800) and (max-width: 1200) {
-  .contentpage table{
-    width: 60%;
-	left: 22.5%;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .contentpage table{
-    width: 100%;
-    left: 10%;
-  }
- }
 
 .contentpage .videocontainer{
     position: relative;
@@ -277,6 +221,8 @@
     width: 100%;
     height: 100%;
 }
+
+/* CENTER */
 
 .center{
   position: absolute;
@@ -304,63 +250,64 @@
   }
  }
 
-.center .title{
+.center h1{
   color: #ffd63e;
   font-size: 5vw;
   font-weight: bold;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
-  .center .title {
+  .center h1 {
     font-size: 5vw;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .center .title {
+  .center h1 {
     font-size: 10vw;
   }
 }
  
-.center .subtitle{
+.center h2{
   color: #ffffff;
   font-size: 2vw;
+  font-weight: normal;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
-  .center .subtitle {
+  .center h2 {
     font-size: 2vw;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .center .subtitle {
-    font-size: 4vw;
+  .center h2 {
+    font-size: 5vw;
   }
 }
 
-.center .subsubtitle{
+.center h3{
   color: #ffd63e;
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-weight: bold;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
-  .center .subsubtitle {
-    font-size: 1.5vw;
+  .center h3 {
+    font-size: 2vw;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .center .subsubtitle {
-    font-size: 4vw;
+  .center h3 {
+    font-size: 5vw;
   }
  }
 
 .center .text{
   color: #ffffff;
   font-size: 1vw;
-  text-align: center;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
@@ -376,105 +323,115 @@
  }
  
  .center a {
+	color: #ffd63e;
+	font-size: 1vw;
     font-weight: bold;
 	text-decoration: none;
+	text-align: center;
+}
+
+@media only screen and (min-width: 800) and (max-width: 1200) {
+  .center a {
+    font-size: 1vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .center a {
+    font-size: 3vw;
+  }
 }
 
 .center a:hover {
     opacity: 0.5;
 }
 
-.center img{
-	position: relative;
-	width: 20%;
+.center .container {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: column;
+	gap: 1.5vw;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
-  .center img {
-    width: 20%;
+  .center .container {
+	  flex-wrap: column;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .center img {
-    width: 40%;
+  .center .container {
+	  flex-wrap: wrap;
   }
 }
 
-.center a:hover {
-    opacity: 0.5;
-}
- 
- .center .row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* The grid: Four equal columns that floats next to each other */
-.center .column {
-  float: left;
-  width: 25%;
-  padding: 0.5vw;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-/* Style the images inside the grid */
-.center .column img {
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Clear floats after the columns */
-.center .row:after {
-  content: "";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  clear: both;
-}
-
-.center tr,th{
-  padding: 0 1vw;
-  font-weight: normal;
-  justify-content: start;
-}
-
-.center table{
-  left: 22.5%;
-  width: 100%;
-  margin: auto;
-  justify-content: start;
-  text-align: center;
-  color: #ffffff;
-  font-weight: normal;
+.center .container .hithere{
+	width: 60%;
+	padding: 0.25vw
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
-  .center table{
-	left: 22.5%;
-    width: 100%;
+  .center .container .hithere {
+	  width: 60%;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .center table{
-	left: 10%;
-    width: 100%;
+  .center .container .hithere {
+	  width: 100%;
   }
- }
+}
+
+.center .container .whoami{
+	width: 40%;
+	padding: 0.25vw;
+}
+
+@media only screen and (min-width: 800) and (max-width: 1200) {
+  .center .container .whoami {
+	  width: 40%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .center .container .whoami {
+	  width: 100%;
+  }
+}
+
+.center .container .whoami img{
+	width: 100%;
+}
+
+.center .container .skills{
+	width: 25%;
+}
+
+@media only screen and (min-width: 800) and (max-width: 1200) {
+  .center .container .skills {
+	  width: 25%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .center .container .skills {
+	  width: 45%;
+  }
+}
+
+
+
+/* FOOTER */
 
 .footer {
    position: fixed;
    color: white;
    text-align: center;
    display: flex;
-   color: #ffffff;
+   color: #888888;
    background-color: #000000;
-   font-size: 0.75vw;
+   font-size: 0.5vw;
    font-weight: bold;
    justify-content: center;
    bottom: 0;
@@ -482,10 +439,6 @@
    width: 100%;
    padding: 1vw;
    z-index: 10;
-}
-
-.footer a:hover {
-    opacity: 0.5;
 }
 
 @media only screen and (min-width: 800) and (max-width: 1200) {
@@ -496,6 +449,6 @@
 
 @media only screen and (max-width: 800px) {
   .footer {
-    font-size: 2vw;
+    font-size: 1vw;
   }
 }

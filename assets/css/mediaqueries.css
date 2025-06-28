@@ -1,0 +1,172 @@
+@media screen and (max-width: 1200) {
+   .topnav a {
+    font-size: 1vw;
+	padding: 0.75vw 2.5vw;
+  }
+  
+  .contentpage {
+    width: 55%;
+	left: 22.5%;
+	top: 5vw;
+  }
+  
+  .contentpage h1 {
+    font-size: 2vw;
+  }
+  
+  .contentpage h2 {
+    font-size: 2vw;
+  }
+  
+  .contentpage h3 {
+    font-size: 1vw;
+  }
+  
+  .contentpage .text {
+    font-size: 1vw;
+  }
+
+  .highlight .info{
+	opacity: 0;
+	transition: .5s ease;
+  }
+  
+  .highlight:hover .info{
+	opacity: 1;
+  }
+  
+  
+  .center {
+    width: 55%;
+	left: 22.5%;
+	top: 5vw;
+  }
+  
+  .center h1 {
+    font-size: 5vw;
+  }
+  
+  .center h2 {
+    font-size: 2vw;
+  }
+  
+  .center h3 {
+    font-size: 2vw;
+  }
+  
+  .center .text {
+    font-size: 1vw;
+  }
+  
+  .center a {
+    font-size: 1vw;
+  }
+  
+  .center .container {
+	  flex-wrap: column;
+  }
+  
+  .center .container .hithere {
+	  width: 60%;
+  }
+  
+  .center .container .whoami {
+	  width: 40%;
+  }
+  
+  .center .container .skills {
+	  width: 25%;
+  }
+  
+  .footer {
+    font-size: 0.5vw;
+  }
+}
+
+
+
+@media screen and (max-width:800px) {
+   .topnav a {
+    font-size: 5vw;
+	padding: 2vw 2vw;
+  }
+  
+  .contentpage {
+    width: 80%;
+    left: 10%;
+	top: 10vw;
+  }
+  
+  .contentpage h1 {
+    font-size: 5vw;
+  }
+  
+  .contentpage h2 {
+    font-size: 5vw;
+  }
+  
+  .contentpage h3 {
+    font-size: 2vw;
+  }
+  
+  .contentpage .text {
+    font-size: 3vw;
+  }
+  
+  .highlight .info{
+	opacity: 1;
+	position: relative;
+	margin-top: 5vw;
+	margin-bottom: 10vw;
+  }
+  
+  .contentpage table{
+	  width: 100%;
+	}
+  
+  .center {
+    width: 80%;
+    left: 10%;
+	top: 15vw;
+  }
+  
+  .center h1 {
+    font-size: 10vw;
+  }
+  
+  .center h2 {
+    font-size: 5vw;
+  }
+  
+  .center h3 {
+    font-size: 5vw;
+  }
+  
+  .center .text {
+    font-size: 3vw;
+  }
+  
+  .center a {
+    font-size: 3vw;
+  }
+  
+  .center .container {
+	  flex-wrap: wrap;
+  }
+  
+  .center .container .hithere {
+	  width: 100%;
+  }
+  
+  .center .container .whoami {
+	  width: 100%;
+  }
+  
+  .center .container .skills {
+	  width: 45%;
+  }
+  
+  .footer {
+    font-size: 2vw;
+  }
+}

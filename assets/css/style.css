@@ -56,6 +56,10 @@ table {
 	padding-bottom: 1vw;
 }
 
+video {
+	width: 75%;
+}
+
 .text {
 	color: #ffffff;
 	font-size: 1vw;
@@ -157,13 +161,14 @@ table {
 	color: #ffffff;
 	font-size: 2vw;
 	font-weight: normal;
+	margin-bottom: 5vw;
 }
 
 .aboutpage h3 {
 	color: #ffd63e;
 	font-size: 2vw;
 	font-weight: bold;
-	margin: 1vw 0vw;
+	margin-bottom: 1vw;
 }
 
 .aboutpage .container {
@@ -172,7 +177,7 @@ table {
 	display: flex;
 	flex-wrap: column;
 	gap: 1.5vw;
-	margin-top: 5vw;
+	margin-bottom: 5vw;
 }
 
 .aboutpage .container .hithere {
@@ -199,7 +204,7 @@ table {
 	height: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-image: url(../img/young.jpg);
+	background-image: url(../img/young.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
@@ -226,36 +231,29 @@ table {
 	padding-bottom: 10vw;
 }
 
+
 .projectspage h1 {
 	color: #ffd63e;
+	text-align: center;
 	font-size: 2vw;
 	font-weight: bold;
-	text-align: center;
-	margin-bottom: 0.25vw;
 }
 
 .projectspage h2 {
-	color: #ffd63e;
-	text-align: center;
-	font-size: 2vw;
-	font-weight: bold;
-}
-
-.projectspage h3 {
 	color: #ffffff;
 	text-align: center;
 	font-size: 0.75vw;
 	font-weight: normal;
-	padding-bottom: 1vw;
+	margin-bottom: 1vw;
 }
 
 .projectspage .highlight {
 	position: relative;
 	width: 100%;
 	height: 100%;
+	justify-content: center;
 	margin-top: 3vw;
-	margin-bottom: 7vw;
-	justify-content: center;	
+	margin-bottom: 2vw;
 }
 
 .projectspage .highlight img {
@@ -276,6 +274,7 @@ table {
 	opacity: 0;
 	transition: .5s ease;
 	background-color: #000000;
+	padding-top: 0.5vw;
 }
 
 .projectspage .highlight:hover .info {
@@ -288,12 +287,12 @@ table {
 
 .footer {
    position: fixed;
-   color: white;
    text-align: center;
    display: flex;
    color: #444444;
    background-color: #000000;
    font-size: 0.75vw;
+   font-weight: bold;
    justify-content: center;
    bottom: 0;
    overflow: visible;

@@ -33,6 +33,7 @@
 
 	.aboutpage .container {
 		flex-wrap: column;
+		margin-bottom: 5vw;
 	}
 
 	.aboutpage .container .hithere {
@@ -58,10 +59,6 @@
 	}
 
 	.projectspage h2 {
-		font-size: 2vw;
-	}
-
-	.projectspage h3 {
 		font-size: 1vw;
 	}
 
@@ -89,6 +86,10 @@
 	}
 	
 	table {
+		width: 100%;
+	}
+	
+	video {
 		width: 100%;
 	}
 
@@ -121,6 +122,7 @@
 	
 	.aboutpage .container {
 		flex-wrap: wrap;
+		margin-bottom: 15vw;
 	}
 
 	.aboutpage .container .hithere {
@@ -146,18 +148,17 @@
 	}
 
 	.projectspage h2 {
-		font-size: 5vw;
-	}
-
-	.projectspage h3 {
 		font-size: 2vw;
 	}
+	
+	.projectspage .highlight {
+		margin-bottom: 15vw;
+	}
 
-	.projectspage .highlight .info{
+	.projectspage .highlight .info {
 		opacity: 1;
 		position: relative;
 		margin-top: 5vw;
-		margin-bottom: 15vw;
 	}
 
 	.footer {

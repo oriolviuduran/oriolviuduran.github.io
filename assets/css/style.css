@@ -217,6 +217,90 @@ video {
 	width: 25%;
 }
 
+.aboutpage .contact {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.aboutpage .contactform {
+	width: 50%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+	gap: 1vw;
+	margin: 1vw;
+	
+}
+
+.aboutpage .contactform input {
+	width: 100%;
+	border: 0.2vw solid #888888;
+    outline: none;
+	text-align: justify;
+	color: #ffffff;
+	background-color: #000000;
+	font-weight: bold;
+	font-size: 1vw;
+	padding: 0.5vw;
+	transition: .5s ease;
+}
+
+.aboutpage .contactform input:focus {
+    border: 0.2vw solid #ffd63e;
+}
+
+.aboutpage .contactform input::placeholder {
+    color: #888888;
+	text-align: justify;
+}
+
+.aboutpage .contactform textarea {
+    width: 100%;
+	border: 0.2vw solid #888888;
+    outline: none;
+	resize: none;
+	field-sizing: content;
+	text-align: justify;
+	color: #ffffff;
+	background-color: #000000;
+	font-size: 1vw;
+	padding: 0.5vw;
+	transition: .5s ease;
+}
+
+.aboutpage .contactform textarea:focus {
+    border: 0.2vw solid #ffd63e;
+}
+
+.aboutpage .contactform textarea::placeholder {
+    color: #888888;
+	text-align: justify;
+}
+
+.aboutpage .contactform button {
+    cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1.5vw;
+	text-align: center;
+	color: #888888;
+	background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+	transition: .5s ease;
+}
+
+.aboutpage .contactform button:hover {
+    color: #ffd63e;
+}
+
+
 
 
 /* Projects */

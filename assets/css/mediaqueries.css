@@ -48,6 +48,35 @@
 		width: 25%;
 	}
 	
+	.aboutpage .contactform {
+		width: 50%;
+		margin: 1vw;
+	}
+
+	.aboutpage .contactform input {
+		border: 0.2vw solid #888888;
+		font-size: 1vw;
+		padding: 0.5vw;
+	}
+
+	.aboutpage .contactform input:focus {
+		border: 0.2vw solid #ffd63e;
+	}
+
+	.aboutpage .contactform textarea {
+		border: 0.2vw solid #888888;
+		font-size: 1vw;
+		padding: 0.5vw;
+	}
+
+	.aboutpage .contactform textarea:focus {
+		border: 0.2vw solid #ffd63e;
+	}
+
+	.aboutpage .contactform button {
+		font-size: 1.5vw;
+	}
+	
 	.projectspage {
 		width: 55%;
 		left: 22.5%;
@@ -99,7 +128,7 @@
 
 	.topnav a {
 		font-size: 5vw;
-		padding: 2vw 2vw;
+		padding: 2vw 3vw;
 	}
 	
 	.aboutpage {
@@ -135,6 +164,36 @@
 
 	.aboutpage .container .skills {
 		width: 45%;
+	}
+	
+	.aboutpage .contactform {
+		width: 100%;
+		gap: 2vw;
+		margin: 2vw;
+	}
+	
+	.aboutpage .contactform input {
+		border: 0.6vw solid #888888;
+		font-size: 3vw;
+		padding: 1.5vw;
+	}
+
+	.aboutpage .contactform input:focus {
+		border: 0.6vw solid #ffd63e;
+	}
+
+	.aboutpage .contactform textarea {
+		border: 0.6vw solid #888888;
+		font-size: 3vw;
+		padding: 1.5vw;
+	}
+
+	.aboutpage .contactform textarea:focus {
+		border: 0.6vw solid #ffd63e;
+	}
+
+	.aboutpage .contactform button {
+		font-size: 5vw;
 	}
 
 	.projectspage {

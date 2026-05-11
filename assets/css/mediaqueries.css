@@ -4,12 +4,16 @@
 		font-size: 1vw;
 	}
 	
+	h1 {
+		font-size: 2vw;
+	}
+	
 	.text {
 		font-size: 1vw;
 	}
 	
 	.topnav a {
-		font-size: 1vw;
+		font-size: 1.25vw;
 		padding: 0.75vw 2.5vw;
 	}
   
@@ -48,56 +52,70 @@
 		width: 33%;
 	}
 	
-	.aboutpage .contactform {
-		width: 60%;
-		margin: 1vw;
-	}
-
-	.aboutpage .contactform input {
-		border: 0.2vw solid #888888;
-		font-size: 1vw;
-		padding: 0.5vw;
-	}
-
-	.aboutpage .contactform input:focus {
-		border: 0.2vw solid #ffd63e;
-	}
-
-	.aboutpage .contactform textarea {
-		border: 0.2vw solid #888888;
-		font-size: 1vw;
-		padding: 0.5vw;
-	}
-
-	.aboutpage .contactform textarea:focus {
-		border: 0.2vw solid #ffd63e;
-	}
-
-	.aboutpage .contactform button {
-		font-size: 1.5vw;
-	}
-	
-	.projectspage {
+	.gamespage {
 		width: 55%;
 		left: 22.5%;
 		top: 5vw;
 	}
   
-	.projectspage h1 {
-		font-size: 2vw;
-	}
-
-	.projectspage h2 {
+	.gamespage h2 {
 		font-size: 1vw;
 	}
 
-	.projectspage .text {
+	.gamespage .text {
 		font-size: 1vw;
 	}
 
-	.projectspage .highlight .info{
+	.gamespage .highlight .info{
 		opacity: 0;
 		transition: .5s ease;
+	}
+	
+	.researchpage {
+		width: 55%;
+		left: 22.5%;
+		top: 5vw;
+	}
+	
+	.contactpage {
+		width: 55%;
+		left: 22.5%;
+		top: 5vw;
+	}
+	
+	.contactpage .contactform {
+		width: 60%;
+		margin: 1vw;
+	}
+
+	.contactpage .contactform input {
+		border: 0.2vw solid #888888;
+		font-size: 1vw;
+		padding: 0.5vw;
+	}
+
+	.contactpage .contactform input:focus {
+		border: 0.2vw solid #ffd63e;
+	}
+
+	.contactpage .contactform textarea {
+		border: 0.2vw solid #888888;
+		font-size: 1vw;
+		padding: 0.5vw;
+	}
+
+	.contactpage .contactform textarea:focus {
+		border: 0.2vw solid #ffd63e;
+	}
+
+	.contactpage .contactform button {
+		font-size: 1.5vw;
+	}
+	
+	.contactpage .testimonials .info {
+		opacity: 1;
+		position: relative;
+		margin-top: 5vw;
 	}
 
 	.footer {
@@ -114,6 +132,10 @@
 		font-size: 3vw;
 	}
 	
+	h1 {
+		font-size: 5vw;
+	}
+	
 	table {
 		width: 100%;
 	}
@@ -127,7 +149,7 @@
 	}
 
 	.topnav a {
-		font-size: 5vw;
+		font-size: 4vw;
 		padding: 2vw 3vw;
 	}
 	
@@ -165,60 +187,75 @@
 	.aboutpage .container .skills {
 		width: 32%;
 	}
-	
-	.aboutpage .contactform {
-		width: 100%;
-		gap: 2vw;
-		margin: 2vw;
-	}
-	
-	.aboutpage .contactform input {
-		border: 0.6vw solid #888888;
-		font-size: 3vw;
-		padding: 1.5vw;
-	}
 
-	.aboutpage .contactform input:focus {
-		border: 0.6vw solid #ffd63e;
-	}
-
-	.aboutpage .contactform textarea {
-		border: 0.6vw solid #888888;
-		font-size: 3vw;
-		padding: 1.5vw;
-	}
-
-	.aboutpage .contactform textarea:focus {
-		border: 0.6vw solid #ffd63e;
-	}
-
-	.aboutpage .contactform button {
-		font-size: 5vw;
-	}
-
-	.projectspage {
+	.gamespage {
 		width: 80%;
 		left: 10%;
 		top: 10vw;
 	}
 
-	.projectspage h1 {
-		font-size: 5vw;
-	}
-
-	.projectspage h2 {
+	.gamespage h2 {
 		font-size: 2vw;
 	}
 	
-	.projectspage .highlight {
+	.gamespage .highlight {
 		margin-bottom: 15vw;
 	}
 
-	.projectspage .highlight .info {
+	.gamespage .highlight .info {
 		opacity: 1;
 		position: relative;
 		margin-top: 5vw;
 	}
+	
+	.researchpage {
+		width: 80%;
+		left: 10%;
+		top: 10vw;
+	}
+	
+	.contactpage {
+		width: 80%;
+		left: 10%;
+		top: 10vw;
+	}
+	
+	.contactpage .form {
+		width: 100%;
+		gap: 2vw;
+		margin: 2vw;
+	}
+	
+	.contactpage .form input {
+		border: 0.6vw solid #888888;
+		font-size: 3vw;
+		padding: 1.5vw;
+	}
+
+	.contactpage .form input:focus {
+		border: 0.6vw solid #ffd63e;
+	}
+
+	.contactpage .form textarea {
+		border: 0.6vw solid #888888;
+		font-size: 3vw;
+		padding: 1.5vw;
+	}
+
+	.contactpage .form textarea:focus {
+		border: 0.6vw solid #ffd63e;
+	}
+
+	.contactpage .form button {
+		font-size: 5vw;
+	}
+	
+	.contactpage .testimonials .info {
+		opacity: 1;
+		position: relative;
+		margin-top: 5vw;
+	}
+	
 
 	.footer {
 		font-size: 2vw;

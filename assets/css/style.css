@@ -37,6 +37,7 @@ h1 {
 	text-align: center;
 	font-size: 2vw;
 	font-weight: bold;
+	margin-bottom: 0.5vw;
 }
 
 
@@ -52,7 +53,7 @@ tr {
 
 th {
 	font-weight: normal;
-	width: 25%;
+	width: 20%;
 	vertical-align: top;
 }
 
@@ -85,7 +86,7 @@ video {
 	justify-content: center;
 	gap: 1vw;
 	width: 100%;
-	padding-top: 1vw;
+	padding: 1vw 0;
 }
 
 .column {
@@ -164,6 +165,7 @@ video {
 	font-size: 5vw;
 	font-weight: bold;
 	padding-top: 2vw;
+	margin-bottom: 0vw;
 }
 
 .aboutpage h2 {
@@ -177,7 +179,7 @@ video {
 	color: #ffd63e;
 	font-size: 2vw;
 	font-weight: bold;
-	margin-bottom: 1vw;
+	margin-bottom: 0.5vw;
 }
 
 .aboutpage .container {
@@ -254,8 +256,8 @@ video {
 	width: 100%;
 	height: 100%;
 	justify-content: center;
-	margin-top: 3vw;
-	margin-bottom: 2vw;
+	margin-top: 2vw;
+	margin-bottom: 3vw;
 }
 
 .gamespage .highlight img {
@@ -283,6 +285,7 @@ video {
 	opacity: 1;
 }
 
+
 /* Research */
 
 .researchpage {
@@ -293,6 +296,13 @@ video {
 	margin: auto;
 	justify-content:center;
 	padding-bottom: 10vw;
+}
+
+.researchpage ul li {
+	text-align: left;
+	text-indent: -2.5vw;
+	margin-left: 2.5vw;
+	margin-top: 1vw;
 }
 
 /* Contact */
@@ -310,7 +320,7 @@ video {
 
 .contactpage .container {
 	padding: 0;
-	margin: 0;
+	margin-bottom: 2vw;
 	box-sizing: border-box;
 	display: flex;
 	align-items: center;
@@ -342,7 +352,7 @@ video {
 }
 
 .contactpage .form input:focus {
-    border: 0.2vw solid #ffd63e;
+    border-color: #ffd63e;
 }
 
 .contactpage .form input::placeholder {
@@ -364,7 +374,7 @@ video {
 }
 
 .contactpage .form textarea:focus {
-    border: 0.2vw solid #ffd63e;
+    border-color: #ffd63e;
 }
 
 .contactpage .form textarea::placeholder {
@@ -390,38 +400,16 @@ video {
     color: #ffd63e;
 }
 
-.contactpage .testimonials {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	justify-content: center;
-	margin-top: 3vw;
-	margin-bottom: 2vw;
-}
-
 .contactpage .testimonials img {
-	display: block;
-	width: 100%;
-	height: auto;
-}
-
-
-.contactpage .testimonials .info {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
+	width: 10%;
+	margin-top: 3vw;
+    border: 0.2vw solid #888888;
+	border-radius: 100%;
 	transition: .5s ease;
-	background-color: #000000;
-	padding-top: 2vw;
 }
 
-.contactpage .testimonials:hover .info {
-	opacity: 1;
+.contactpage .testimonials img:hover {
+	border-color: #ffd63e;
 }
 
 
@@ -434,7 +422,6 @@ video {
    color: #444444;
    background-color: #000000;
    font-size: 0.75vw;
-   font-weight: bold;
    justify-content: center;
    bottom: 0;
    overflow: visible;
